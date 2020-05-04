@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+header .main-menu {
+  list-style: none;
+}
+
+header .main-menu li {
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+header .main-menu li a {
+  color: #000;
+  font-size: 22px;
+}
+
+main .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main .cards .card {
+  width: 300px;
+}
+
+main .cards .card img {
+  width: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
