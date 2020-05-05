@@ -1,0 +1,17 @@
+header{
+     text-align: center;
+     .main-menu{
+         list-style: none;
+         li{
+             display: inline-block;
+             padding: 10px;
+             font-weight: bold;
+             a{
+                 color: $header_link_color;
+                 font-size: 22px;
+             }
+
+         }
+
+     }
+}

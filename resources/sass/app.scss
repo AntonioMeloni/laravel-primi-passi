@@ -1,53 +1,8 @@
-@import 'partials/_variables';
+@import '_variables';
+@import '_common';
+@import '_reset';
+@import '_mixins';
+@import 'partials/_header';
+@import 'partials/_footer';
+@import 'partials/_main';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-
-a{
-    text-decoration: none;
-}
-
-header{
-     text-align: center;
-     .main-menu{
-         list-style: none;
-         li{
-             display: inline-block;
-             padding: 10px;
-             font-weight: bold;
-             a{
-                 color: $header_link_color;
-                 font-size: 22px;
-             }
-
-         }
-
-     }
-}
-
-main{
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    .cards{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        .card{
-            width: 300px;
-            img{
-                width: 300px;
-                object-fit: contain;
-            }
-        }
-    }
-}
