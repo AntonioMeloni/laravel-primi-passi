@@ -1,7 +1,12 @@
 main{
     max-width: 1200px;
     margin: 0 auto;
-
+    background-image: url('../../img/fondo-slide-classiche.jpg');
+    background-repeat: repeat;
+    h2{
+        color: rgb(20,26,86);
+        padding-left: 20px;
+    }
     .cards{
         display: flex;
         flex-wrap: wrap;
@@ -16,7 +21,7 @@ main{
                     opacity: 1;
                 }
                 img{
-                    transform: scale(1.2);
+                    transform: scale(1.35);
                 }
             }
             img{
@@ -35,7 +40,7 @@ main{
                 opacity: 0;
                 transition: 0.3s linear all;
                 color: white;
-                background-color: rgba(0,0,0,0.5);
+                background-color: rgba(20,26,86,0.5);
                 .card-links{
                     position: absolute;
                     width: 100%;
@@ -44,12 +49,24 @@ main{
                     transform: translate(-50%, -50%);
                     text-align: center;
                     transition: 0.3s linear all;
+
                     h3{
                         padding-bottom: 50px;
+                        a{
+                            color: white;
+                            font-size: 20px;
+                        }
+
                     }
                 }
             }
-
+            @media (max-width: 768px){
+                flex-basis: calc(100% / 2 - 40px);
+            }
+            @media (max-width: 468px){
+                flex-basis: calc(100% / 1 - 40px);
+            }
         }
+
     }
 }
