@@ -1,0 +1,37 @@
+footer{
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        .infos{
+            width: 40%;
+            @media (max-width: 468px){
+                width: 100%;
+            }
+        }
+        .footer-links{
+            width: 60%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 50px;
+            @media (max-width: 468px){
+                width: 100%;
+                padding: 20px 0;
+            }
+            .footer-list{
+                width: 50%;
+                padding-bottom: 30px;
+                @media (max-width: 768px){
+                    width: 100%;
+                }
+
+            }
+
+        }
+    }
+    .footer-logo{
+        img{
+            width: 100%;
+        }
+    }
+}
