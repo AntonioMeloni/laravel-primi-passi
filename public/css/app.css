@@ -32,10 +32,12 @@ header .main-menu li a {
 }
 
 main {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+}
+
+main .products-container {
   background-image: url(/images/fondo-slide-classiche.jpg?5dc47aecdc84063ff6660b6185d1baa0);
-  background-repeat: repeat;
 }
 
 main h2 {
