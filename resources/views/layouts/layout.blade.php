@@ -7,6 +7,8 @@
     </head>
     <body>
         @include('partials.header')
+        @yield('succ')
+        @yield('prec')
         <main>
             @yield('mainContent')
         </main>

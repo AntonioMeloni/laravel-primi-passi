@@ -28,3 +28,7 @@ Route::get('/', function () {
 Route::get('/news', function () {
     return view('news');
 })->name('news');
+
+Route::get('/products/{id}', function ($id) {
+    return view('product',compact('id'));
+})->name('prodotti.show');

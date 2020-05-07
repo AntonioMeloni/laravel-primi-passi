@@ -71,4 +71,25 @@ main{
         }
 
     }
+
+    .prodotto{
+        width: 100%;
+        .product-name,
+        .product-info{
+            background-color: #b7dae5;
+            text-align: center;
+            color: rgb(20,26,86);
+            padding: 30px 50px;
+            p{
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+        .product-images{
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+    }
 }

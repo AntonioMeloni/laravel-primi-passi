@@ -10,6 +10,38 @@ ul {
   list-style: none;
 }
 
+.succ,
+.prec {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(20, 26, 86, 0.5);
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.succ h3,
+.prec h3 {
+  text-align: center;
+  line-height: 50px;
+}
+
+.succ h3 a,
+.prec h3 a {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.succ {
+  left: 95%;
+}
+
+.prec {
+  right: 95%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -168,5 +200,28 @@ main .cards .card .card-hover .card-links h3 a {
   main .cards .card {
     flex-basis: calc(100% / 1 - 40px);
   }
+}
+
+main .prodotto {
+  width: 100%;
+}
+
+main .prodotto .product-name,
+main .prodotto .product-info {
+  background-color: #b7dae5;
+  text-align: center;
+  color: #141a56;
+  padding: 30px 50px;
+}
+
+main .prodotto .product-name p,
+main .prodotto .product-info p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main .prodotto .product-images img {
+  display: block;
+  width: 100%;
 }
 
